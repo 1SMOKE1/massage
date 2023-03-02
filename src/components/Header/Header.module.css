@@ -1,0 +1,47 @@
+.container{
+  max-width: 1790px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.header{
+  height: 50px;
+  width: 100%;
+  background-color: var(--header-bg);
+}
+
+.header__content{
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__title{
+  margin: 0;
+  font-family: "ArizonaRegular";
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.header__phones{
+  display: flex;
+}
+
+.header__phones > a{
+  color: black;
+  text-decoration: none;
+}
+
+.header__social{
+  width: 115px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+

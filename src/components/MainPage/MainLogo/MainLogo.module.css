@@ -1,0 +1,19 @@
+.main_logo{
+  display: flex;
+  justify-content: center;
+  min-height: 20vh;
+}
+
+.main_logo__content{
+  width: 850px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main_logo__content > p{
+  font-family: var(--arizona-ff);
+  font-size: 64px;
+  line-height: 80px;
+  margin: 0;
+}

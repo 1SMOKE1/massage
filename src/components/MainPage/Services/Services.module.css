@@ -1,0 +1,21 @@
+.services{
+  background: url('../../../assets/services_circles.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 75vh;
+}
+
+.services__img_rocks{
+  position: absolute;
+  top: 35%;
+  left: -2%;
+  transform: translate(2%, -17.5%);
+}
+
+.services__img_towel{
+  position: absolute;
+  top: 27%;
+  right: 0;
+  transform: translate(0, -13.5%);
+}
