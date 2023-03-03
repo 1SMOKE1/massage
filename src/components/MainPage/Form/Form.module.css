@@ -1,0 +1,73 @@
+.form__wrap{
+  max-width: 1500px;
+  margin: 120px auto 190px;
+  padding: 0 15px;
+  box-sizing: border-box;
+
+}
+
+.form__wrap > form{
+  position: relative;
+  z-index: 100;
+}
+
+.form__title{
+  color: #9AA930;
+  font-size: 40px;
+  line-height: 46px;
+}
+
+.form__subtitle{
+  color: #3A3429;
+  font-size: 16px;
+  line-height: 18.4px;
+  font-weight: bold;
+}
+
+.form__fields{
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__wrap > form > .form__fields > input[type="text"],
+.form__wrap > form > .form__fields > input[type="tel"],
+.form__wrap > form > .form__fields > button{
+  position: relative;
+  z-index: 100;
+  width: 420px;
+  height: 40px;
+  border: 2px solid #9AA930;
+  background-color: #D9D9D9;
+  padding: 0 25px;
+  font-size: 24px;
+  line-height: 27.6px;
+  outline: none;
+  color: #3A3429;
+  font-family: "Arial";
+}
+
+.form__wrap > form > .form__fields > input[type="text"]::placeholder,
+.form__wrap > form > .form__fields > input[type="tel"]::placeholder{
+  transition: color .5s ease;
+}
+
+.form__wrap > form > .form__fields > input[type="text"]:focus::placeholder,
+.form__wrap > form > .form__fields > input[type="tel"]:focus::placeholder{
+  color: transparent;
+}
+
+.form__wrap > form > .form__fields > button{
+  background-color: #9AA930;
+  color: #FAFFFF;
+  border: 2px solid #121110;
+  font-weight: 700;
+  transition: background-color .3s ease;
+}
+
+.form__wrap > form > .form__fields > button:hover{
+  background-color: #abbb35;
+}
+
+

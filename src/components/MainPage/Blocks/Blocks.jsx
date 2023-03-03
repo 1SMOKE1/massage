@@ -18,7 +18,7 @@ export const Blocks = () => {
     <section className={styles.blocks}>
       <div className={styles.container}>
         <div className={styles.block}>
-          <div className={styles.block__img_wrap} data-aos="fade-right" data-aos-delay="150">
+          <div className={styles.block__img_wrap} data-aos="fade-right"  data-aos-delay="150">
             <img data-aos="zoom-in" data-aos-delay="250" className={styles.block__img} src={massage_1} alt="" />
           </div>
           <div className={`${styles.block__text} ${styles.block__text_content}`} data-aos="fade-left" data-aos-delay="550">

@@ -1,0 +1,71 @@
+.footer{
+  min-height: 200px;
+  background-color: #3A3429;
+}
+
+.container{
+  max-width: 1770px;
+  margin: 10px auto 20px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.content > a{
+  font-size: 24px;
+  line-height: 27.6px;
+  color: #FFFFFF;
+}
+
+.logo__wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo__wrap > h1{
+  font-family: "ArizonaRegular";
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+} 
+
+.contacts > h2{
+  font-size: 24px;
+  line-height: 27.4px;
+  margin: 10px 0 20px 0;
+}
+
+.contacts > a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+
+.contacts:nth-child(2) > a{
+  margin-bottom: 15px;
+}
+
+.social__block{
+  width: 155px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social__block > a > img{
+  width: 40px;
+}
+
+

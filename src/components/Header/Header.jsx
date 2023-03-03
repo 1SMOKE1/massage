@@ -5,7 +5,7 @@ import styles from './Header.module.css';
 
 export const Header = () => {
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} fixed-top`}>
       <div className={styles.container}>
         <div className={styles.header__content}>
           <h1 className={styles.header__title}>GRACE & HEALTH</h1>
@@ -24,7 +24,7 @@ export const Header = () => {
               <img src={youtube} alt="" />
             </a>
           </div>
-          <span className={styles.header__link}>Naše cena</span>
+          <a className={styles.header__link}>Naše cena</a>
         </div>
       </div>
     </header>

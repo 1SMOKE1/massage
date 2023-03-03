@@ -69,6 +69,7 @@
 /* BLOCK TEXT */
 
 .block__text_content{
+  font-family: "Andika";
   z-index: 10;
   padding: 27px 24px;
   position: relative;
@@ -89,7 +90,7 @@
 }
 
 .block:nth-child(2) .block__text{
-  border: 5px solid #C4B299;
+  border: 5px solid #d9bd97;
   background-color: #fff;
   box-shadow: 15px 15px 15px #C4B299;
   margin-left: 12%;
@@ -110,7 +111,7 @@
 }
 
 .block:nth-child(3) .block__text{
-  border: 5px solid #F1D04F;
+  border: 5px solid #dfbe3c;
   box-shadow: 15px 15px 15px #F1D04F;
   margin-right: 18%;
   display: flex;
@@ -120,7 +121,7 @@
 }
 
 .block:nth-child(3) .block__text > h3:nth-child(1){
-  margin-bottom: 30%;
+  margin-bottom: 22%;
 }
 
 

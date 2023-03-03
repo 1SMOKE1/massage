@@ -76,3 +76,13 @@ a{
   --header-bg: #C4B299;
   --arizona-ff: "ArizonaRegular";
 }
+
+.hide-block-left{
+  transition: .7s ease !important;
+  transform: translate(-60vw) !important;
+}
+
+.show-block-left{
+  transition: .7s ease !important;
+  transform: translate(0) !important;
+}

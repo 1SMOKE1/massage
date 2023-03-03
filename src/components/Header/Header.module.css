@@ -41,6 +41,18 @@
   align-items: center;
 }
 
+.header__link{
+  text-decoration: none;
+  color: #000;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.header__link:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+
 
 
 
