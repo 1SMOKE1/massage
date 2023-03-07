@@ -5,8 +5,8 @@
 
 .container{
   max-width: 1770px;
-  margin: 10px auto 20px;
-  padding: 0 15px;
+  margin: 0 auto;
+  padding: 10px 15px 20px;
   box-sizing: border-box;
 }
 
@@ -35,6 +35,17 @@
   line-height: 50px;
 }
 
+.logo__mobile__text{
+  display: none;
+}
+
+.contacts__wrap{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .contacts{
   display: flex;
   flex-direction: column;
@@ -45,7 +56,7 @@
   line-height: 27.4px;
   margin: 10px 0 20px 0;
 }
-
+.contacts__wrap > a,
 .contacts > a{
   text-decoration: none;
   color: #FFFFFF;
@@ -64,8 +75,78 @@
   justify-content: space-between;
 }
 
-.social__block > a > img{
+.social__block > a{
   width: 40px;
+  height: 40px;
+}
+
+.social__block > a > img{
+  width: 100%;
+}
+
+@media(max-width: 1700px){
+  .logo__wrap{
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1199px){
+  .content{
+    flex-direction: column;
+  }
+
+  .logo__mobile__text{
+    font-family: "ArizonaRegular";
+    display: block;
+    margin: 0;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .logo__wrap > img{
+    margin: 0 20px;
+  }
+
+  .logo__wrap > h1{
+    display: none;
+  }
+
+  .content > a {
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 750px){
+  .logo__mobile__text{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .logo__wrap > img{
+    width: 86px;
+    margin: 0 20px;
+  }
+
+  .contacts > h2{
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .contacts > a{
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .social__block{
+    width: 100px;
+  }
+
+  .social__block > a{
+    width: 25px;
+    height: 25px;
+  }
 }
 
 

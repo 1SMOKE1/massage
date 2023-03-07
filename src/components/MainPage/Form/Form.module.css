@@ -3,7 +3,6 @@
   margin: 120px auto 190px;
   padding: 0 15px;
   box-sizing: border-box;
-
 }
 
 .form__wrap > form{
@@ -70,4 +69,43 @@
   background-color: #abbb35;
 }
 
+@media (max-width: 1350px){
+  .form__wrap > form > .form__fields > input[type="text"],
+  .form__wrap > form > .form__fields > input[type="tel"],
+  .form__wrap > form > .form__fields > button{
+    width: 300px;
+  }
+}
+
+@media(max-width: 1000px){
+  .form__fields{
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  .form__wrap > form > .form__fields > input[type="text"],
+  .form__wrap > form > .form__fields > input[type="tel"],
+  .form__wrap > form > .form__fields > button{
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .form__title{
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .form__subtitle{
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+}
+
+@media(max-width: 750px){
+  .form__wrap {
+    margin: 80px auto
+  }
+}
 

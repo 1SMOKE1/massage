@@ -18,7 +18,7 @@ export const Blocks = () => {
     <section className={styles.blocks}>
       <div className={styles.container}>
         <div className={styles.block}>
-          <div className={styles.block__img_wrap} data-aos="fade-right"  data-aos-delay="150">
+          <div className={`${styles.block__img_wrap}`} data-aos="fade-right"  data-aos-delay="150">
             <img data-aos="zoom-in" data-aos-delay="250" className={styles.block__img} src={massage_1} alt="" />
           </div>
           <div className={`${styles.block__text} ${styles.block__text_content}`} data-aos="fade-left" data-aos-delay="550">
@@ -48,12 +48,12 @@ export const Blocks = () => {
           <p>Zábal z mořských řas</p>
           <p>Zábal z bahna z Mrtvého moře</p>
           </div>
-          <div className={styles.block__img_wrap} data-aos="fade-left" data-aos-delay="400">
+          <div className={`${styles.block__img_wrap}`} data-aos="fade-left" data-aos-delay="400">
             <img data-aos="zoom-in" data-aos-delay="500" className={styles.block__img} src={massage_2} alt="" />
           </div>
         </div>
         <div className={styles.block}>
-          <div className={styles.block__img_wrap} data-aos="fade-right" data-aos-delay="400">
+          <div className={`${styles.block__img_wrap}`} data-aos="fade-right" data-aos-delay="400">
             <img data-aos="zoom-in" data-aos-delay="500" className={styles.block__img} src={massage_3} alt="" />
           </div>
           <div className={`${styles.block__text} ${styles.block__text_content}`} data-aos="fade-left" data-aos-delay="250">  
@@ -69,7 +69,9 @@ export const Blocks = () => {
           </div>
         </div>
       </div>
-      <div className={styles.section__bg}></div>
+      <div className={styles.section__bg__left}></div>
+      <div className={styles.section__bg__left__mobile}></div>
+      <div className={styles.section__bg__right}></div>
     </section>
     
   )

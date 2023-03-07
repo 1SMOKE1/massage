@@ -51,6 +51,10 @@ a{
   box-sizing: border-box;
 }
 
+body {
+  scroll-behavior: smooth !important;
+}
+
 @font-face {
   font-family: "ArizonaRegular";
   src: local("Arizona"),
@@ -85,4 +89,8 @@ a{
 .show-block-left{
   transition: .7s ease !important;
   transform: translate(0) !important;
+}
+
+main{
+  overflow: hidden;
 }

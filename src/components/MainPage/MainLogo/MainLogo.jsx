@@ -6,7 +6,9 @@ export const MainLogo = () => {
     <section className={styles.main_logo}>
       <div className={styles.main_logo__content}>
         <p>GRACE</p>
-        <img src={logo} alt="" />
+        <div className={styles.main_logo_img_wrap}>
+          <img className="w-100" src={logo} alt="" />
+        </div>
         <p>HEALTH</p>
       </div>
     </section>

@@ -174,6 +174,56 @@ export const blocksData = [
     vrstev kůže (dermis a hypodermis) 
     pod epidermis (povrchová vrstva).`,
     imgSrc: ''
+  },
+  {
+    title: 'Ultrazvuková kavitace',
+    body: `Ultrazvuková kavitace je tvorba a aktivita
+    bublin plynu nebo páry v médiu ozařovaném ultrazvukem,
+    stejně jako efekty vyplývající z jejich interakce s
+    prostředím a s akustickým polem..`,
+    imgSrc: ''
+  },
+  {
+    title: 'Myostimulace',
+    body: `Myostimulace je hardwarová technika pro tvarování
+    těla. Je založena na řízeném dráždění určitých svalových
+    skupin elektrickými impulsy, které jsou přiváděny přes
+    elektrody instalované na těle. Zároveň se v dosahu
+    přístroje aktivuje tok lymfy a krevní oběh, což
+    přispívá k odstranění přebytečné tekutiny a
+    nahromaděných toxinů z tkání. Zvýšená 
+    lipolýza – odbourávání tuků. Obecně
+    je myostimulace pozitivním působením
+    elektrického proudu na svaly, nervový
+    systém, metabolismus a hormonální
+    hladinu v těle.`,
+    imgSrc: ''
+  },
+  {
+    title: 'Diamantová mikrodermabraze',
+    body: `Diamantová mikrodermabraze je bezbolestný
+    peeling určený k čištění a obnově pokožky. Postup
+    je založen na mechanickém odstranění vrstev 
+    epidermis pomocí trysky potažené diamantem`,
+    imgSrc: ''
+  },
+  {
+    title: 'Galvanické pokovování',
+    body: `Galvanické pokovování v kosmetologii je
+    nejnovější metodou omlazení, čištění a napínání
+    pokožky vystavením elektrickému proudu. Existuje 
+    několik typů galvanického pokovování:
+    Galvanizace - nastartuje metabolické
+    procesy v tkáních.`,
+    imgSrc: ''
+  },
+  {
+    title: 'Darsonval',
+    body: `Darsonval je přístroj pro fyzioterapii a
+    kosmetické procedury. Pomocí pulzního střídavého
+    proudu přístroj rozšiřuje cévy, zlepšuje prokrvení
+    a výživu pokožky a sliznic, ale i vlasů.`,
+    imgSrc: ''
   }
 ]
 
