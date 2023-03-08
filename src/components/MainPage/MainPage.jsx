@@ -1,7 +1,7 @@
-import { MainLogo } from "./MainLogo/MainLogo";
+import { MainLogo } from "../Share/MainLogo/MainLogo";
 import { Services } from "./Services/Services";
 import { Blocks } from "./Blocks/Blocks";
-import { Form } from "./Form/Form";
+import { Form } from "../Share/Form/Form";
 import { useState } from 'react';
 import  scrollTo from "scrollto-animation"
 

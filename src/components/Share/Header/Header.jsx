@@ -1,7 +1,8 @@
-import inst from '../../assets/icons/inst.svg';
-import fb from '../../assets/icons/fb.svg';
-import youtube from '../../assets/icons/youtube.svg';
+import inst from '../../../assets/icons/inst.svg';
+import fb from '../../../assets/icons/fb.svg';
+import youtube from '../../../assets/icons/youtube.svg';
 import styles from './Header.module.css';
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
   return (
@@ -27,7 +28,7 @@ export const Header = () => {
                 <img src={youtube} alt="" />
               </a>
             </div>
-            <a className={styles.header__link}>Naše cena</a>
+            <Link to="/price" className={styles.header__link}>Naše cena</Link>
           </div>
         </div>
       </div>
